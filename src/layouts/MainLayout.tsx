@@ -7,7 +7,6 @@ import ScrollToTop from '@/components/common/ScrollToTop'
 export default function MainLayout() {
   return (
     <div className="min-h-screen flex flex-col">
-
       <ScrollToTop />
 
       <Navbar />
@@ -17,7 +16,6 @@ export default function MainLayout() {
       </main>
 
       <Footer />
-
     </div>
   )
 }
