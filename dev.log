@@ -1,0 +1,19 @@
+
+> aiprom-website@0.1.0 dev /vercel/share/v0-project
+> vite
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  VITE v5.4.21  ready in 154 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+4:08:36 AM [vite] page reload src/main.tsx
+4:08:52 AM [vite] page reload src/main.tsx
+4:09:03 AM [vite] page reload src/main.tsx
+4:09:17 AM [vite] page reload src/routes/appRouter.tsx
+4:09:27 AM [vite] hmr update /src/App.tsx, /src/index.css
+4:09:31 AM [vite] hmr update /src/pages/Home.tsx, /src/index.css
+4:09:42 AM [vite] hmr update /src/layouts/MainLayout.tsx, /src/index.css
+4:09:55 AM [vite] hmr update /src/pages/Home.tsx, /src/index.css
+4:10:00 AM [vite] hmr update /src/layouts/MainLayout.tsx, /src/index.css

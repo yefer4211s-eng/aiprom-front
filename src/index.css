@@ -1,0 +1,64 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Inter', 'Helvetica Neue', sans-serif;
+  --color-primary: #1a3a52;
+  --color-primary-light: #2d5a7b;
+  --color-accent: #ff8c00;
+  --color-accent-light: #ffaa33;
+  --color-background: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-muted: #6b7280;
+  --color-muted-light: #d1d5db;
+  --color-border: #e5e7eb;
+}
+
+:root {
+  --primary: #1a3a52;
+  --primary-light: #2d5a7b;
+  --accent: #ff8c00;
+  --accent-light: #ffaa33;
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --muted: #6b7280;
+  --muted-light: #d1d5db;
+  --border: #e5e7eb;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  * {
+    @apply border-gray-200;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-gray-900;
+  }
+
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl md:text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl md:text-3xl;
+  }
+
+  a {
+    @apply text-blue-600 hover:text-blue-800 transition-colors;
+  }
+
+  button {
+    @apply transition-all duration-200;
+  }
+}
